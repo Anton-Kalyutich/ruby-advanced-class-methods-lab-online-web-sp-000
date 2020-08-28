@@ -47,5 +47,8 @@ class Song
     song.name = array[1].split(".")[0]
     song
   end
+  
+  def self.create_from_filename
+  end
 
 end
